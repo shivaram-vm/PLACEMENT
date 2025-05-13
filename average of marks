@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+    int a, b,c,d,e,avg,total;
+    printf("enter the mark1:\n");
+    scanf("%d",&a);
+     printf("enter the mark2:\n");
+    scanf("%d",&b);
+     printf("enter the mark3:\n");
+    scanf("%d",&c);
+     printf("enter the mark4:\n");
+    scanf("%d",&d);
+    printf("enter the mark5:\n");
+    scanf("%d",&e);
+    
+    total =(a+b+c+d+e);
+    avg=total/5;
+    printf("total:%d\n",total);
+    printf("avg:%d\n",avg);
+    return 0;
+}
