@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter a number:");
+    scanf("%d",&a);
+ if(a%4==0)
+  printf("this number is leap yr");
+  else
+  printf("this number id not leap yr");
+    return 0;
+}
