@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+    int a=10,b=20,c=30;
+    if(a<b && b>c)
+    printf("yours grade was A");
+    else if(b>a && b>c)
+    printf("your grade was B");
+    else
+    printf("your grade was C");
+    return 0;
+}
