@@ -1,0 +1,11 @@
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    int a;
+    scanf("%d",&a);
+    if ((a % 4 == 0 && a % 100 != 0) || (a % 400 == 0))
+        printf("Leap year");
+    else
+        printf("Not a Leap year");
+    return 0;
+}
