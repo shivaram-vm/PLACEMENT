@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{  
+    float celsius,f;
+    printf("enter the celcious : ");
+    scanf("%f",&celsius);
+    
+    f = (celsius * 9/5) + 32;
+    printf("%f",f);
+     
+    
+
+    return 0;
+}
