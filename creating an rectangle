@@ -1,0 +1,22 @@
+
+#include <stdio.h>
+int main()
+
+{     
+    int a,b,c,f;
+    printf("enter the rectagle values\n");
+    
+    printf("Enter a value of lenth: \n");
+    scanf("%d", &a);
+    
+    printf("Enter a value of breath:  \n");
+    scanf("%d", &b);
+  
+    c = a * b;
+    f = 2*(a+b);
+    
+    printf("The parameter rectagle of %d and %d is %d\n", a, b, f);
+    printf("The aera  rectagle of %d and %d is %d\n", a, b, c);
+    return 0;
+
+}  
