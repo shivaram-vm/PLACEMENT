@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{  
+    float sum,mul,sub,di,a,b;
+    
+    printf("enter a number :");
+    scanf("%f",&a);
+    printf("enter a number :");
+    scanf("%f",&b);
+    
+    sum=a+b;
+    sub=a-b; 
+    mul=a/b; 
+    di=a*b;
+    
+    printf("add : %f   sub : %f  mul : %f  di : %f",sum,sub,mul,di);
+    return 0;
+    
+}
