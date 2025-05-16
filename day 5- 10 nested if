@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    if (3 < 21)  
+    {
+        printf("A");
+        if (3)  
+        {
+            printf("B");
+            if (2 == 2) {
+                printf("C");
+            }
+            printf("D");
+        }
+        printf("E");
+    }
+
+    return 0;
+}
